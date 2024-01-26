@@ -255,7 +255,7 @@ class _BMIStatusScreenState extends State<BMIStatusScreen> {
       // Extracting values from the server response
       String userName = "User1"; // User Nickname
       double bmiValue = data['bmi']['bmi'].toDouble();
-      // String bmiResultText = data['bmi']['bmi_result'];
+
 
       double recommendedCalories = data['TEE']; //
       double todayCalories = 1300;
