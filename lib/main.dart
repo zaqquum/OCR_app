@@ -259,8 +259,6 @@ class _BMIStatusScreenState extends State<BMIStatusScreen> {
 
       double recommendedCalories = data['TEE']; //
       double todayCalories = 1300;
-
-
       double carb_g = data['nutrient_ratio']['Carbohydrate'];
       double protein_g = data['nutrient_ratio']['Protein'];
       double fat_g = data['nutrient_ratio']['Lipide'];
@@ -351,7 +349,6 @@ class _OCRScreenState extends State<OCRScreen> {
     );
   }
 }
-
 
 class ResultScreen extends StatefulWidget {
   final String userName;
